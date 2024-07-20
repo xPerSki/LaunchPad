@@ -35,8 +35,11 @@ root = tk.Tk("Launch Pad", "LaunchPad")
 root.title("Launch Pad")
 root.minsize(600, 700)
 root.maxsize(600, 700)
+root.resizable(False, False)
 root.config(bg="black")
+root.iconbitmap("images/p_letter.ico")
 root.attributes("-alpha", 0.95)
+
 
 generate_random_seq()
 
